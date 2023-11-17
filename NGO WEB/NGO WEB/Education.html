@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nikita.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Education website</title>
+</head>
+<body onload="slider()">
+    <header>
+        
+        <div class="navbar">
+            <span><a href="Front.html"> Home</a></span>
+            <span><a href="#"> Info</a></span>
+            <span><a href="About.html" target="_blank"> About us</a></span>
+            <span><a href="contact.html" target="_blank"> Contact us</a></span>
+            <span><button class="btnn"><a href="Donation.html" target="_blank"> Donate<i class="fa fa-smile-o"></i></a></button></span>
+        </div>
+    
+        <div class="h-right">
+            <a href="#"> Follow us |</a>
+            <a href="https://www.facebook.com/profile.php?id=100026112682067&mibextid=9R9pXO" target="_blank" ><i class="fa fa-facebook-square"></i> |</a>
+            <a href="#"><i class="fa fa-instagram"></i> |</a>
+            <a href="#"><i class="fa fa-telegram"></i> |</a>
+            <a href="#"><i class="fa fa-whatsapp"></i> |</a>
+            <a href="#"><i class="fa fa-youtube-play"></i></a>
+        </div>
+
+    </header>
+  
+    <section class="Home">
+        <div class="home-text">
+            <h5>All We Need</h5>
+            <h1>RIGHT TO <br> EDUCATION</h1>
+            <p>Education is the tool that break down all the barriers,<br>
+                 its a key to liberating children from slavery. </p>
+            <a href="#" class="btn"> Click here for more</a>
+        </div>
+    </section>
+
+    <div class="pic">
+     <div class="pic-content">
+        <div class="row1">
+         <div class="row-img">
+            <img src="image/children image.jpg" height="250px" width="350px">
+         </div>
+        </div>
+        <div class="pic-content">
+            <div class="row2">
+             <div class="row-img">
+                <img src="image/images.jpeg" height="250px" width="350px">
+             </div>
+            </div>
+            <div class="pic-content">
+                <div class="row3">
+                 <div class="row-img">
+                    <img src="image/poor children.avif" height="250px" width="350px">
+                 </div>
+                </div>
+            </div>
+        </div></div>
+    </div>
+    <div class="text2">
+    <h1><i class="fa fa-child"></i> Poor Child Education <i class="fa fa-book"></i></h1>
+    <p>Our NGO is working to ensure that every child recieve a good quality of education,and learns the skills the will need to <br>
+       trive in the 21st century. </p>
+        <br><br>
+       <div> <img src="image/image 020202.jpg " height="400" id="slideimg" ></div>
+    </div><br><br><br>
+   <h1 id="topic"> OUR PROJECTS &nbsp;:</h1><br>
+   <div class="prjct">
+   <h5>Street children in kolkata get a chance at education! <i class="fa fa-graduation-cap"></i></h5>
+   <p style="font-size: 20px;">This project works for child care and development of vulnerable street children who are out of school. These children come from families who do not have the capacity to bring up their children in an ideal atmosphere due to extreme poverty.
+
+    The children in such circumstances do not get proper care, nutrition and education. They also fall into bad habits and fall victim to exploitation of various kinds and also get trafficked.
+    
+    The project runs three residential centers in which they are protected from such evils and also get care and education. The educational programs are designed such that it can help them from knowing nothing to getting a decent education. Computer literacy programmes; sports, cultural and martial arts and life skills for children are also imparted for their overall development.</p>
+    </div>
+    <div class="img_prj">
+        <div class="img01"><img src="image/image101.jpg" height="300px" width="300px"/></div>
+        <div class="img02"><img src="image/image105.jpg" height="300px" width="340px"/></div>
+        <div class="img03"><img src="image/image102.jpg" height="300px" width="320px"/></div>
+    </div>
+    <section class="footer">
+      <div class="footer_box">
+        <h3>Our Service</h3><br>
+        <a href="#">Social educational project</a>
+        <a href="#"> Poor child education</a>
+        <a href="#"> Computer education center</a>
+        <a href="#"> Cultural art and life skills </a>
+ 
+      </div>
+      <div class=" contact">
+        <h3> Contact us</h3>
+        <a href="#"><i class="fa fa-envelope"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100026112682067&mibextid=9R9pXO" target="_blank" ><i class="fa fa-facebook-official"></i></a>
+        <a href="#"><i class="fa fa-phone"></i></a>
+        <a href="#"><i class="fa fa-map-marker"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"> <i class="fa fa-twitter"></i></a>
+ 
+      </div>
+      <div class="footer_box">
+        <h3>Help</h3><br>
+        <a href="#">FAQs</a>
+        <a href="About.html" target="_blank">About</a>
+        <a href="#">Terms and Conditions</a>
+        
+ 
+      </div>
+    </section>
+    <div class="copy_right">
+        <p>&copy; Copyright 2023 by Helping Hands</p>
+    </div>
+    
+ <script>
+    var slideimg=document.getElementById("slideimg");
+
+    var images=new Array(
+       "./image/image 020202.jpg",
+       "./image/image100.webp",
+       "./image/Hope-Kolkata.webp",
+       "./image/image1004.jpg"
+    );
+
+    var len=images.length;
+    var i=0;
+    function slider(){
+        if(i>len-1){
+            i=0;
+        }
+        slideimg.src=images[i];
+        i++;
+        setTimeout("slider()",4000)
+    }
+
+ </script>
+
+
+</body>
+</html>

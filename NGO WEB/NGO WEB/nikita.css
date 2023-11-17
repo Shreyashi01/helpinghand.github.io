@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Gloock&display=swap');
+
+*{
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    color: #fff;
+    background: #010815;
+    height: 100%;
+    width: 100%;
+
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    transition: all .50s ease;
+}
+
+.navbar{
+    display: flex;
+
+}
+.navbar span a{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 15px 22px;
+    transition: all .20s ease;
+    
+}
+.navbar a:hover{
+    color:rgb(177, 155, 46);
+
+}
+.h-right{
+    display: flex;
+    align-items: right;
+    
+}
+.h-right a:first-child{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 2px;
+    
+}
+.h-right a{
+    vertical-align: middle;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 18px;
+    margin-left: 5px;
+    transition: all .20s ease;
+    
+}
+.h-right a:hover{
+    color:rgb(177, 155, 46); 
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+section{
+    padding: 70px 17% 60px;
+}
+.Home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to left,rgba(0,0,0,0),rgba(0,0,0,3)),url(image/teach-for-india-1024x576.jpg);
+    background-size: cover;
+    background-position:bottom center ;
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
+
+}
+.home-text{
+    position: absolute;
+    
+    left:321px;
+    top: 150px;
+}
+.home-text h5{
+   font-size: 35px;
+   font-weight: 600;
+   margin-bottom: 10px;
+   letter-spacing: 5px;
+   color: #f0b906;
+}
+.home-text h1{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.home-text p{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 45px;
+    color: #f6dedeab;
+    margin-bottom: 30px;
+
+}
+.btn{
+    display: inline;
+    padding: 13px 40px;
+    background:rgb(177, 155, 46); 
+    color: #000;
+    font-size: 12px;
+    font-weight: 500;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: all .50s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: translateX(10px);
+    border: 2px solid rgb(213, 176, 12);
+    background: transparent;
+    color: #f0b906;
+}
+header.Sticky{
+    padding: 8px 17%;
+    background: transparent;
+    backdrop-filter: blur(40px);
+
+
+}
+.pic{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    padding-top: 50px;
+    margin: 10px;
+}
+.pic-content{
+    height: auto;
+    width: auto;
+    display: flex;
+    padding: 20px;
+}
+.row1{
+    transition: all .50s ease;
+}
+.row1 :hover{
+    transform: translatex(5px);
+    transform: translatey(-5px);
+    
+}
+.row2{
+    transition: all .50s ease;
+}
+.row2 :hover{
+    transform: translatex(5px);
+    transform: translatey(-5px);
+    
+}
+.row3{
+    transition: all .50s ease;
+}
+.row3 :hover{
+    transform: translatex(5px);
+    transform: translatey(-5px);
+    
+}
+header{
+    background: transparent;
+    backdrop-filter: blur(40px);
+}
+.text2{
+    position:relative;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    
+}
+.text2 h1{
+    font-size: 40px;
+    font-weight: 50;
+    color: #f0b906;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.text2 p{
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.img2{
+    justify-content: center;
+    margin: 80px 30%;
+    width: 100%;
+    height: auto;
+   
+}
+.btnn{
+    background-color: rgb(232, 192, 13);
+    border-radius: 10px;
+    border: 2px solid rgb(229, 153, 13);
+}
+.btnn:hover{
+    cursor: pointer;
+    background: transparent;
+}
+#topic{
+    font-size: 35px;
+    font-weight: 400;
+    margin-left: 70px;
+    color: #cfa004;
+    font-family: 'Gloock', serif;
+    text-align: center;
+}
+.prjct{
+    font-weight: 200;
+    margin-left: 30px;
+    line-height: 30px;
+}
+.prjct h5{
+    font-size: 32px;
+    text-transform:capitalize;
+    color: rgba(222, 184, 135, 0.966);
+    margin: 10px;
+    font-family: 'Gloock', serif;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.prjct p{
+    text-align: center;
+}
+
+.img_prj{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* padding: 40px 40px ; */
+    
+}
+.img01{
+    contain: content;
+    overflow: hidden;
+    transition: scale 400ms;
+}
+.img01:hover{
+    scale: 120%; 
+}
+.img02{
+    overflow: hidden;
+    transition: scale 400ms;
+}
+.img02:hover{
+    scale: 120%;
+}
+.img03{
+    overflow: hidden;
+    transition: scale 400ms;
+}
+.img03:hover{
+    scale: 120%;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    gap: 1em;
+    background: rgb(27, 28, 32);
+    
+
+}
+.footer_box{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer_box h3{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.footer_box a{
+    color: #979797;
+    margin-bottom: 16px;
+    transition: all .20s ease;
+    font-size: 20px;
+
+}
+.footer_box a:hover{
+    transform: translatey(-5px);
+    color: rgb(255, 200, 50);
+}
+.contact{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 350;
+    line-height: 80px;
+    cursor: pointer;
+}
+.contact a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+    background-color: #202020;
+    color:grey;
+    margin-left: 20px;
+    transition: all .20s ease;
+}
+.contact a:hover{
+    transform: translatey(-5px);
+    color: rgb(255, 200, 50);
+   
+}
+.copy_right p{
+   text-align: center;
+   padding: 20px;
+   color: #979797;
+   font-size: 20px;
+   
+}
+ .donation1 { 
+    background: #000000;
+    color: #000;
+    font-size: 25px;
+    line-height: 30px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    width: 100%;
+    height: 100%;
+ }
+ .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 0px;
+    background-image: linear-gradient(to left,rgba(17, 27, 137, 0),rgba(0,0,0,3)),url(image/11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+ .container form{
+    padding: 10px;
+    width: 800px;
+    background-color: #f3b4094d;
+    
+ }
+
+.container form .box{
+   display: flex;
+   
+}
+.container form .box .col{
+    display: grid;
+}
+.container form .box .col h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #080901;
+    padding-bottom: 7px;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+.container form .box .col .inputbox{
+    margin: 15px 0;
+    margin-bottom: 5px
+}
+
+.container form .box .col .inputbox span{
+    color: #00ddcb;
+    font-size: 20px;
+    font-weight: 550;
+
+    
+}
+.container form .box .col .inputbox input{
+    width: 200px;
+    height: 23px;
+    border: 1px solid  #4a5105;
+    font-size: 15px;
+    text-transform: none;
+    float: right;
+    margin-left: 6px;
+    
+}
+.inputbox img{
+    padding-top: 35px;
+    
+}
+.submit_btn{
+    border-radius: 5px;
+    width:150px;
+    height: 20px;
+    background-color: #ffc400c6;
+    color: rgb(49, 49, 49);
+    overflow: hidden;
+    transition: scale;
+    margin-left: 310px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+    
+}
+.submit_btn:hover{
+    scale: 104%;
+    cursor: pointer;
+    background-color: #629909cc;
+}
+.a2{
+    /* background-color: rgba(48, 230, 154, 0.205); */
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: auto;
+    display: flex;
+    right:45%;
+  }
+  .a2 a {
+    text-decoration: none;
+  }
+  .a2 h3{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgba(255, 255, 255, 0.842);
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor:default;
+    transition: all .10s ease-in-out;
+  }
+  .a2 h3:hover{
+    color:rgba(255, 166, 0, 0.747);
+  }

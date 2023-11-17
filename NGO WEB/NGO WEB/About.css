@@ -1,0 +1,302 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Dela+Gothic+One&family=Fuggles&family=Gloock&family=Oswald:wght@500&family=Shadows+Into+Light&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(100, 255, 139, 0.274); */
+    background-color: white;
+}
+header{
+    background-color: rgba(255, 255, 255, 0.432);
+    width: 100%;
+    height: 60px;
+    display:flex;
+    position: absolute;
+}
+header a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    padding: 10px 20px;
+    transition: all.20s ease-in-out;
+}
+header a:hover {
+    color:rgba(0, 255, 221, 0.904);
+}
+.backimg{
+   max-height: 100%;
+   background-image: rgba(0, 0, 0, 0.87) ;
+}
+.backimg img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.title{
+    position:absolute;
+    /* display: flex; */
+    width: 50%;
+    margin: auto;  
+    top: 300px;
+    left: 350px;
+    text-align: center;
+    line-height: 30px;
+}
+.title h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    color:rgba(0, 255, 170, 0.849);
+    transition: all.20s ease-in-out;
+}
+.title h1:hover{
+    letter-spacing: 20px;
+    line-height: 70px;
+}
+.title h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    color:rgba(245, 245, 245, 0.849);
+}
+.title h2:hover{
+    letter-spacing: 10px;
+}
+.para{
+    margin: 60px ;
+    text-align: center;
+}
+.para p{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.grid{
+    display: flex;
+    margin: 5% 10%;
+}
+.d1{
+    background-color: rgba(36, 3, 66, 0.979);
+    display: flex;
+    width: 100%;
+    margin:10px;
+    transition: all .20s ease-in-out;
+}
+.d1:hover{
+    transform: scale(104%);
+    background-color: rgba(13, 1, 24, 0.979);
+}
+.d11 img{
+    height: 70px;
+    width: 70px;
+    padding: 40px 30px;
+    transition: all.20s ease-in-out;
+}
+.d11 img:hover{
+    transform: scale(105%);
+}
+.d11{
+    width: 30%;
+}
+.d12{
+    color: rgba(255, 255, 191, 0.877);
+    width: 70%;
+    font-size: 20px;
+    padding: 30px 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all.20s ease-in-out;
+}
+.d12:hover{
+    transform: scale(104%);
+}
+.grid2{
+    display: flex;
+    margin: 1% 0%;
+}
+.d2{
+    width: 100%;
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.d21{
+    background-color: rgba(105, 248, 189, 0.267);
+    width: 20%;
+    text-align: center;
+    position: relative;
+}
+.d21 img{
+    height: 80px;
+    width: 80px;
+    padding: 40px 30px;
+}
+.d22{
+    background-color: rgba(36, 3, 66, 0.952);
+    width: 80%;
+    transition: all.20s ease-in-out;
+}
+.d22:hover{
+    background-color: rgba(12, 1, 22, 0.952);
+}
+.d22 p{
+    font-size: 20px;
+    padding: 30px 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(248, 248, 184, 0.884);
+    transition: all.20s ease-in-out;
+}
+.d22 p:hover{
+    transform: scale(103%);
+}
+.grid3{
+    font-size: 20px;
+    padding: 30px 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.grid4{
+    display: grid;
+}
+.d41{
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    padding: 30px 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.d42{
+    display: flex;
+}
+.d421{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    width: 72%;
+    margin: auto;
+}
+.d421 div{
+    margin: 5px 10px;
+}
+.d421 div img{
+    height: 180px;
+    width: 180px;
+}
+.grid5{
+    display:grid;
+    margin-bottom: 40px;
+}
+.grid51{
+    display: flex;
+    margin-left: 6%;
+    padding-top: 20px;
+    width: 80%;
+    padding-bottom: 10px;
+}
+.grid511 img{
+    height: 70px;
+    width: 70px;
+    padding-top: 50px;
+}
+.grid512{
+    margin-left: 50px;
+}
+.grid512 h1{
+    padding-right: 20px;
+    font-size: 40px;
+    color:rgb(2, 172, 2);
+    font-family:'Croissant One', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Fuggles', cursive;
+    font-family: 'Gloock', serif;
+    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Shadows Into Light', cursive; */
+}
+.grid512 p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.lvl{
+    display: flex;
+    background-color: yellow;
+    width: 90%;
+    margin: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    pointer:default;
+}
+.lvl a{
+    text-decoration: none;
+    color: black;
+}
+.lvl1{
+    padding: 20px;
+}
+.footer{
+    display:flex;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    gap: 1em;
+    background: rgb(27, 28, 32);
+   justify-content: center;
+   text-align: center;
+}
+.footer_box{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0px 80px;
+}
+.footer_box h3{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.678);
+}
+.footer_box a{
+    color: #979797;
+    margin-bottom: 16px;
+    transition: all .20s ease;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer_box a:hover{
+    transform: translatey(-5px);
+    color: rgba(1, 255, 149, 0.664);
+}
+.contact{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 350;
+    line-height: 80px;
+    cursor: pointer;
+    padding-top: 50px;
+    left: 20px;
+}
+.contact a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+    background-color: #202020;
+    color:grey;
+    margin-left: 20px;
+    transition: all .20s ease;
+    text-decoration: none;
+}
+.contact a:hover{
+    transform: translatey(-5px);
+    color: rgba(1, 255, 136, 0.829);
+}
+.copy_right p{
+   text-align: center;
+   padding: 20px;
+   color: #979797;
+   font-size: 20px;  
+}
